@@ -1,0 +1,80 @@
+.App {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.mapview{
+  display: flex;
+  /* flex: 50% 50%; */
+}
+h3, h2{
+  margin: 0;
+}
+li {
+  width: 95%;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px #888888;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+li .info{
+  display: flex;
+  flex-direction: column;
+}
+li .info div{
+  display: flex;
+  flex-wrap: 0.
+  wrap;
+}
+li .info div span, li div span{
+  margin: 0px 5px;
+  font-size: 1rem;
+}
+a:-webkit-any-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.loginPane{
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner{
+  background: url('https://marker-img.s3.amazonaws.com/Tiny+cardiology+doctor+and+nurse+examining+heart%2C+blood+pressure.jpg');
+  height: 95vh;
+  margin-top: 5vh;
+  width: 100vw;
+  background-position: left;
+  background-attachment: fixed;
+  background-size: 45%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.banner div {
+  display: flex;
+  margin: 0 60px 100px 0;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px !important;
+  color: #1976d2;
+  border: #1976d2 2px solid;
+  border-radius: 8px;
+  padding: 5px 15px;
+  align-items: center;
+}
+.stats h1{
+  font-size: 100px;
+  margin: 0;
+}
